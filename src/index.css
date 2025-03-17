@@ -1,0 +1,68 @@
+.habit-container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+  padding: 20px;
+}
+
+.habit-title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.habit-input-container{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.habit-input{
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.habit-add-button{
+  background-color: #22c55e;
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.habit-list{
+  list-style-type: none;
+  width: 320px;
+  padding: 0;
+}
+
+.habit-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.completed{
+  text-decoration: line-through;
+  color: gray;
+}
+
+.habit-toggle-button{
+  color: #2563eb;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
